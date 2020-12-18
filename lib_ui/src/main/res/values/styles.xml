@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 页面背景 -->
+    <style name="style_page_bg">
+        <item name="android:background">#f3f3f3</item>
+    </style>
+    <!--BaseTitleLayout 背景-->
+    <style name="style_title_bg">
+        <!--左边图片 默认是返回按钮-->
+        <item name="titleBackResource">@mipmap/default_back</item>
+        <!--背景色-->
+        <item name="android:background">@color/colorPrimary</item>
+        <!--状态栏颜色-->
+        <item name="titleStatusBackground">@color/colorPrimaryDark</item>
+        <!--状态栏背景是否和 BaseTitleLayout 的background一样-->
+        <item name="titleStatusFromBackground">true</item>
+        <item name="titleTextColor">#ffffff</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/dp_44</item>
+    </style>
+
+    <!-- 背景透明dialog -->
+    <style name="dialog_tran" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <!--底部向上进入的动画-->
+    <style name="anim_menu_bottom" parent="android:Animation">
+        //进入时的动画
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        //退出时的动画
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+</resources>
+

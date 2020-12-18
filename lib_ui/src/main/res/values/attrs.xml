@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--BaseTitleLayout标题-->
+    <declare-styleable name="BaseTitleLayout">
+        <!--左边图片 默认是返回-->
+        <attr name="titleBackResource" format="reference"/>
+        <!--状态栏背景图片/颜色-->
+        <attr name="titleStatusBackground" format="reference|color"/>
+        <!--状态栏背景是否和 BaseTitleLayout 的background一样-->
+        <attr name="titleStatusFromBackground" format="boolean"/>
+        <!-- 是否显示返回-->
+        <attr name="titleLeftBackVisible" format="boolean"/>
+        <!--是否显示文字-->
+        <attr name="titleTextVisible" format="boolean"/>
+        <!--标题文字内容-->
+        <attr name="titleText" format="string"/>
+        <!--文字颜色 -->
+        <attr name="titleTextColor" format="color"/>
+    </declare-styleable>
+
+    <!--BaseItemLayout 条目展示-->
+    <declare-styleable name="BaseItemLayout">
+        <!--左边图片 -->
+        <attr name="item_leftImageResource" format="reference"/>
+        <!--右边图片 -->
+        <attr name="item_rightImageResource" format="reference"/>
+        <!--文字内容-->
+        <attr name="item_text" format="string"/>
+        <!--文字颜色 -->
+        <attr name="item_textColor" format="color"/>
+
+        <!-- 是否显示第二段文字-->
+        <attr name="item_text2Visible" format="boolean"/>
+
+
+    </declare-styleable>
+
+    <!--                                       ImageView                                 -->
+
+    <!-- 圆形的imageView -->
+    <declare-styleable name="BaseCircleImageView">
+        <attr name="border_widths" format="dimension" />
+        <attr name="border_colors" format="color" />
+    </declare-styleable>
+    <!-- Android 圆角、圆形 ImageView -->
+    <declare-styleable name="BaseNiceImageView">
+        <attr name="is_circle" format="boolean" />
+        <attr name="is_cover_src" format="boolean" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_top_left_radius" format="dimension" />
+        <attr name="corner_top_right_radius" format="dimension" />
+        <attr name="corner_bottom_left_radius" format="dimension" />
+        <attr name="corner_bottom_right_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="inner_border_width" format="dimension" />
+        <attr name="inner_border_color" format="color" />
+        <attr name="mask_color" format="color" />
+    </declare-styleable>
+
+
+
+
+    <!-- *rc 公共属性* -->
+    <!--圆形-->
+    <attr name="round_as_circle" format="boolean" />
+    <!--全部圆角半径-->
+    <attr name="round_corner" format="integer|dimension" />
+    <!--针对各个角的半径-->
+    <attr name="round_corner_top_left" format="integer|dimension" />
+    <attr name="round_corner_top_right" format="integer|dimension" />
+    <attr name="round_corner_bottom_left" format="integer|dimension" />
+    <attr name="round_corner_bottom_right" format="integer|dimension" />
+
+    <!--描边颜色／半径-->
+    <attr name="stroke_color" format="color|reference" />
+    <attr name="stroke_width" format="integer|dimension" />
+
+    <!-- 是否剪裁 RCLayout 的背景 -->
+    <attr name="clip_background" format="boolean" />
+
+    <!--真正用于解析的属性-->
+    <declare-styleable name="RCAttrs">
+        <attr name="round_as_circle" />
+        <attr name="round_corner" />
+        <attr name="round_corner_top_left" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_left" />
+        <attr name="round_corner_bottom_right" />
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="clip_background" />
+    </declare-styleable>
+
+    <!--假体：用于提示-->
+    <declare-styleable name="RCRelativeLayout">
+        <attr name="round_as_circle" />
+        <attr name="round_corner" />
+        <attr name="round_corner_top_left" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_left" />
+        <attr name="round_corner_bottom_right" />
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="clip_background" />
+    </declare-styleable>
+
+    <!--假体：用于提示-->
+    <declare-styleable name="RCImageView">
+        <attr name="round_as_circle" />
+        <attr name="round_corner" />
+        <attr name="round_corner_top_left" />
+        <attr name="round_corner_top_right" />
+        <attr name="round_corner_bottom_left" />
+        <attr name="round_corner_bottom_right" />
+        <attr name="stroke_color" />
+        <attr name="stroke_width" />
+        <attr name="clip_background" />
+    </declare-styleable>
+
+
+    <!-- 图标+文字 -->
+    <declare-styleable name="IconLayout">
+        <attr name="icon_src" format="reference" />
+        <attr name="icon_src_press" format="reference" />
+        <attr name="icon_text" format="string"/>
+        <attr name="icon_text_color" format="color" />
+        <attr name="icon_text_size" format="dimension" />
+        <attr name="icon_spacing" format="dimension" />
+        <attr name="icon_location">                     <!-- 控制图标的位置 -->
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="top" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

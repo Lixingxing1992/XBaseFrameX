@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">lib_project</string>
+
+
+    <!--拍照，照片选择相关-->
+    <string name="app_photo_choose_title">选择照片</string>
+    <string name="app_photo_choose_title_cancel">取消</string>
+    <string name="app_photo_choose_title_yulan">预览</string>
+    <string name="app_photo_choose_num">%d张</string>
+    <string name="app_photo_choose_sure">确定(%1$d/%2$d)</string>
+    <string name="app_photo_choose_near">最近照片</string>
+    <string name="app_photo_choose_all">全部照片</string>
+    <string name="app_photo_edit_title">编辑照片</string>
+    <string name="app_photo_loading">正在加载手机图片,请稍等</string>
+    <string name="app_ar_photo_push">向上推送</string>
+    <string name="app_photo_error_choose_max">本次最多只能选择%d张</string>
+    <string name="app_photo_error_choose_min">请先选择图片</string>
+    <string name="app_photo_error_cancel">用户已经取消</string>
+    <string name="app_photo_error_nocard">不好意思,没有检查到存储卡</string>
+    <string name="app_photo_error_noimage">不好意思,没有搜索到任何图片</string>
+
+
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+</resources>

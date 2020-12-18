@@ -1,0 +1,5 @@
+include ':lib_ui'
+include ':lib_project'
+include ':lib_commom'
+include ':app'
+rootProject.name = "XBaseFrameX"

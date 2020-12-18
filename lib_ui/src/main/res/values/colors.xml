@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffc600</color>
+    <color name="colorPrimaryDark">#ffc600</color>
+    <color name="colorAccent">#ffc600</color>
+
+    <!--通用标题头背景色-->
+    <color name="BaseTitleLayout_background">#ffc600</color>
+    <!--通用标题头状态栏背景色-->
+    <color name="BaseTitleLayout_statu_background">#ffc600</color>
+</resources>
